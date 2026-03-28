@@ -1,0 +1,215 @@
+common:
+  exp_data_root: /Volumes/SSPA-USC/深度カメラ実験(卒研)および業務オリジナル/exp-data
+  video_data_root: /Users/kawashima/Measurement_of_inter-head_distance/depth_video
+conf:
+  # - title: "202305-toho"
+  #   bag_path: E:\20230511-toho-math\20230511_162259.bag
+  #   left_area_width: 320
+  #   threshold:
+  #     left:
+  #       min: 2000
+  #       max: 3500
+  #     right:
+  #       min: 2000
+  #       max: 3500
+  #   start_epoch: 1683789831859
+
+  # - title: "20220606_1"
+  #   bag_path: E:\20220606_0610toho-math-taiwa-experiment-data\20220606_01\20220606_145748.bag
+  #   left_area_width: 300
+  #   threshold:
+  #     min: 1500
+  #     max: 2500
+
+  # 左右別々にしきい値を設定したくなる気がする
+  # - title: "20231006-uec-pre"
+  #   bag_path: '20231006-uec-pre\20231006_163243.bag'
+  #   left_area_width: 320
+  #   exec: false
+  #   # 16進数の値を入れる
+  #   threshold:
+  #     left:
+  #       min: f00
+  #       max: '1300'
+  #     right:
+  #       min: 'f00'
+  #       max: '1300'
+  #   # time of arrivalの値を入れる
+  #   time_range:
+  #     start: 1696577594359
+  #     end: 0
+  #   target_area:
+  #     lower:
+  #       x: 0
+  #       y: 114
+  #     upper:
+  #       x: 640
+  #       y: 380
+
+  - project_name: "20241219_1_CSCL_experiment"
+    file_path:
+      project_root: "20241219_1_CSCL_experiment"
+      bag_path: "20241219_145701.bag"
+    left_area_width: 320
+    area_height: 240
+    exec: false
+    threshold:
+      left:
+        min: "1500"
+        max: "1d00"
+      right:
+        min: "1500"
+        max: "1c00"
+      bottom:
+        min: "1500"
+        max: "1c00"
+    time_range:
+      start: 1734587821682
+      end: 1734589021682
+    target_area:
+      lower:
+        x: 0
+        y: 0
+      upper:
+        x: 640
+        y: 480
+
+  - project_name: "20241220_1_CSCL_experiment"
+    file_path:
+      project_root: "20241220_1_CSCL_experiment"
+      bag_path: "20241220_092534.bag"
+    left_area_width: 320
+    area_height: 240
+    exec: false
+    threshold:
+      left:
+        min: "1500"
+        max: "1d00"
+      right:
+        min: "1500"
+        max: "1c00"
+      bottom:
+        min: "1500"
+        max: "1c00"
+    time_range:
+      start: 1734654334464
+      end: 1734655534464
+    target_area:
+      lower:
+        x: 0
+        y: 0
+      upper:
+        x: 640
+        y: 480
+
+  - project_name: "20241220_2_CSCL_experiment"
+    file_path:
+      project_root: "20241220_2_CSCL_experiment"
+      bag_path: "20241220_131549.bag"
+    left_area_width: 320
+    area_height: 240
+    exec: false
+    threshold:
+      left:
+        min: "1500"
+        max: "1d00"
+      right:
+        min: "1500"
+        max: "1c00"
+      bottom:
+        min: "1500"
+        max: "1c00"
+    time_range:
+      start: 1734668149225
+      end: 1734669349225
+    target_area:
+      lower:
+        x: 0
+        y: 0
+      upper:
+        x: 640
+        y: 480
+
+  - project_name: "20241220_3_CSCL_experiment"
+    file_path:
+      project_root: "20241220_3_CSCL_experiment"
+      bag_path: "20241220_151252.bag"
+    left_area_width: 320
+    area_height: 240
+    exec: false
+    threshold:
+      left:
+        min: "1500"
+        max: "1d00"
+      right:
+        min: "1500"
+        max: "1c00"
+      bottom:
+        min: "1500"
+        max: "1c00"
+    time_range:
+      start: 1734675172198
+      end: 1734676372198
+    target_area:
+      lower:
+        x: 0
+        y: 0
+      upper:
+        x: 640
+        y: 480
+
+  - project_name: "20250116_1_CSCL_experiment"
+    file_path:
+      project_root: "20250116_1_CSCL_experiment"
+      bag_path: "20250116_133313.bag"
+    left_area_width: 320
+    area_height: 240
+    exec: false
+    threshold:
+      left:
+        min: "1500"
+        max: "1dd0"
+      right:
+        min: "1500"
+        max: "1c00"
+      bottom:
+        min: "1500"
+        max: "1c00"
+    time_range:
+      start: 1737001993767
+      end: 1737003193767
+    target_area:
+      lower:
+        x: 0
+        y: 0
+      upper:
+        x: 640
+        y: 480
+
+  - project_name: "20250116_2_CSCL_experiment"
+    file_path:
+      project_root: "20250116_2_CSCL_experiment"
+      bag_path: "20250116_175833.bag"
+    left_area_width: 320
+    area_height: 240
+    exec: false
+    threshold:
+      left:
+        min: "1500"
+        max: "1d00"
+      right:
+        min: "1500"
+        max: "1c00"
+      bottom:
+        min: "1500"
+        max: "1c00"
+    time_range:
+      start: 1737017913842
+      end: 1737019113842
+    target_area:
+      lower:
+        x: 0
+        y: 0
+      upper:
+        x: 640
+        y: 480

@@ -1,0 +1,7 @@
+src/realsense_pose/*/videos/202305-toho-1000.mp4
+src/realsense_pose/*/videos/202305-toho-distance.mp4
+src/realsense_pose/*/videos/202305-toho-head-distance-video.zip
+src/realsense_pose/*/videos/202305-toho.mp4
+src/realsense_pose/*/videos/*.mp4
+
+__pycache__/
