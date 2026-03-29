@@ -18,6 +18,8 @@ dataclass-wizard==0.39.1
     # via realsense-pose
 dataclasses-json==0.6.7
     # via realsense-pose
+et-xmlfile==2.0.0
+    # via openpyxl
 fonttools==4.62.1
     # via matplotlib
 japanize-matplotlib==1.1.3
@@ -44,6 +46,8 @@ numpy==1.26.4
     # via realsense-pose
     # via seaborn
 opencv-python==4.7.0.72
+    # via realsense-pose
+openpyxl==3.1.5
     # via realsense-pose
 packaging==26.0
     # via marshmallow

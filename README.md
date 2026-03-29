@@ -38,3 +38,6 @@ rye run python src/realsense_pose/head_distance/main_3p_green.py
 <img width="343" height="255" alt="image" src="https://github.com/user-attachments/assets/a47d52a3-6b4c-40b1-b485-35bc1c054370" />
 <img width="362" height="272" alt="image" src="https://github.com/user-attachments/assets/6db509aa-f7e9-470f-a0a5-a4ba5c65f721" />
 
+
+# Measurement_of_head_movement_amount
+src/calculate_movement_amount/amount_move_distance_new.pyは、depth_videoに格納されている各参加者の頭部座標から、1秒間あたりの頭部動作量を算出し、amount_outputに出力する
