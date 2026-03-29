@@ -33,6 +33,7 @@ rye run python src/realsense_pose/head_distance/main_3p_green.py
 3人のディスカッション中の頭部動作を計測するプロジェクトです。
 下記のような議論状況となっております。
 上記コードを動かすと、下記のようなマスク画像と、頭部間の距離を可視化した動画、2者間の距離および、各参加者の頭部座標を示しています。頭部座標は、頭部として判定される領域の重心座標となっています。
+
 <img width="368" height="275" alt="image" src="https://github.com/user-attachments/assets/c470374f-a8da-4730-a3c4-02d9571d7472" />
 <img width="343" height="255" alt="image" src="https://github.com/user-attachments/assets/a47d52a3-6b4c-40b1-b485-35bc1c054370" />
 <img width="362" height="272" alt="image" src="https://github.com/user-attachments/assets/6db509aa-f7e9-470f-a0a5-a4ba5c65f721" />
