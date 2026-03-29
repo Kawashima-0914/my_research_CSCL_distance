@@ -41,3 +41,12 @@ rye run python src/realsense_pose/head_distance/main_3p_green.py
 
 # Measurement_of_head_movement_amount
 src/calculate_movement_amount/amount_move_distance_new.pyは、depth_videoに格納されている各参加者の頭部座標から、1秒間あたりの頭部動作量を算出し、amount_outputに出力する
+
+# graph
+頭部間距離および頭部動作量をグラフへプロットするソースコードを、src/display_on_the_graphに追加しています。
+以下はその出力されたグラフの例です。
+
+<img width="1257" height="623" alt="image" src="https://github.com/user-attachments/assets/58c221f0-37c0-4a85-9219-8336304af029" />
+
+<img width="1093" height="541" alt="image" src="https://github.com/user-attachments/assets/60f6b511-3e2a-4ac0-a779-bed1de4ba834" />
+
